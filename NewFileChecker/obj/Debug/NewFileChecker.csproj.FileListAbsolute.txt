@@ -1,0 +1,6 @@
+c:\users\nate\documents\visual studio 2013\Projects\NewFileChecker\NewFileChecker\bin\Debug\NewFileChecker.exe.config
+C:\Users\Nate\Documents\Visual Studio 2013\Projects\NewFileChecker\NewFileChecker\bin\Debug\NewFileChecker.exe
+C:\Users\Nate\Documents\Visual Studio 2013\Projects\NewFileChecker\NewFileChecker\bin\Debug\NewFileChecker.pdb
+C:\Users\Nate\Documents\Visual Studio 2013\Projects\NewFileChecker\NewFileChecker\obj\Debug\NewFileChecker.csprojResolveAssemblyReference.cache
+C:\Users\Nate\Documents\Visual Studio 2013\Projects\NewFileChecker\NewFileChecker\obj\Debug\NewFileChecker.exe
+C:\Users\Nate\Documents\Visual Studio 2013\Projects\NewFileChecker\NewFileChecker\obj\Debug\NewFileChecker.pdb
