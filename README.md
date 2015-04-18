@@ -11,3 +11,5 @@ Planned features:
 - Perforce Integration! Automatically add files *of speficied types* to a new changelist (basically a more flexible
 version of Perforce's Automatically Mark Files for Add function), Reset file display output on submit
 
+- Pressing 's' will print all files modified/added given a start time
+
