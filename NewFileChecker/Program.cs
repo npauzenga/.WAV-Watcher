@@ -7,6 +7,7 @@ public class Watcher
 {
 
     public static string CurrentDir;
+    public static string FileType;
 
     public static void Main()
     {
@@ -18,10 +19,22 @@ public class Watcher
 
     public static void Run()
     {        
-        Console.WriteLine("Enter Path: ");
+        Console.WriteLine("Enter path to monitor: ");
         CurrentDir = Console.ReadLine();
- 
-        FileSystemWatcher watcher = new FileSystemWatcher(CurrentDir, "*.wav");
+
+        Console.WriteLine("\nWhich file type should I look for?\npress Enter for all file types: ");
+        FileType = Console.ReadLine();
+
+        if (FileType != "")
+        {
+            FileType = "*." + FileType;
+        }
+        else 
+        {
+            FileType = "*";
+        }
+
+        FileSystemWatcher watcher = new FileSystemWatcher(CurrentDir, FileType);
          
 
         watcher.IncludeSubdirectories = true;
